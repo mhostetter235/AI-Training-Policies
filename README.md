@@ -3,6 +3,15 @@ This project examines how AI language in major online platforms’ privacy polic
 
 # Data:
 
+**Source:** The [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1), the official daily journal of the U.S. government. I collected every document whose text mentions "artificial intelligence" and was published from January 2019 to November 2026, with one request per year. For each document I kept the document number, title, type (rule, proposed rule, notice, or presidential document), agencies, and publication date.
+
+**When collected:** November 4, 2026.
+
+**How many records:** 1,247 records came back from the API and 170 of them have AI in the title, meaning they are mainly about AI. 
+
+**What's left out, and why:**
+- **Personal information:** none. These are government publications, and they contain no user data or private individuals' information.
+
 # Methods:
 
 # Findings:
