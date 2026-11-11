@@ -14,6 +14,10 @@ This project examines how AI language in major online platforms’ privacy polic
 
 # Methods:
 
+Federal Register documents were collected via the Federal Register API, querying for the term “artificial intelligence” across each year from 2019 to 2026. Each request retrieved up to 1,000 documents per year, capturing document number, title, type, agency names, and publication date. Raw JSON responses were saved locally and deduplicated by document number, yielding 1,247 unique records. Documents were then flagged as primarily about AI if their title contained “artificial intelligence” or the standalone term “AI".
+
 # Findings:
+
+A Federal Register API query for documents mentioning “artificial intelligence” (2019–2026) returned 1,247 unique documents, 170 of which are primarily about AI. Federal attention was minimal through 2020, rose sharply after 2022, coinciding with the mainstreaming of generative AI, and peaked in 2024 before tapering off toward pre-ChatGPT levels.
 
 # How to reproduce:
